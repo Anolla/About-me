@@ -1,0 +1,19 @@
+
+h1  { padding: 6px; 
+    color: brown;
+    font-style: normal;
+    font-size: xx-large;
+    border: 1px solid brown;
+    text-align: center;
+    margin: 20px; }
+
+p {padding: 50px;
+    margin: 20px;
+    height: 400px;
+    width: 1000px;
+} 
+
+body { background-color: bisque;}
+
+
+
