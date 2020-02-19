@@ -3,28 +3,28 @@
 var counter = 0;
 var username = prompt("Hello there! what's your name ?")
 
-alert("welcome  " + username)
+alert("welcome  " + username);
 
 var question1 = prompt("Does my name mean grace of God?")
 
 switch (question1.toLowerCase()) {
     case 'y':
         // console.log('You are right');
-        alert("You are right, it also means mercy of GOD")
+        alert("You are right, it also means mercy of GOD");
         counter++;
         break;
     case 'yes':
         // console.log('You are right!');
-        alert("You are right, it also means mercy of GOD")
+        alert("You are right, it also means mercy of GOD");
         counter++;
         break;
     case 'n':
         // console.log('You are wrong!');
-        alert("you are wrong!")
+        alert("you are wrong!");
         break;
     case 'no':
         // console.log('You are wrong!');
-        alert("you are wrong!")
+        alert("you are wrong!");
         break;
     default:
         // console.log('please try again!');
@@ -37,25 +37,25 @@ var question2 = prompt("Do I have siblings?")
 switch (question2.toLowerCase()) {
     case 'y':
         // console.log('You are right');
-        alert("You are right, I have a twin brother")
+        alert("You are right, I have a twin brother");
         counter++;
         break;
     case 'yes':
         // console.log('You are right');
-        alert("You are right, I have a twin brother")
+        alert("You are right, I have a twin brother");
         counter++;
         break;
     case 'n':
         // console.log('You are wrong!');
-        alert("you are wrong!")
+        alert("you are wrong!");
         break;
     case 'no':
         // console.log('You are wrong!');
-        alert("you are wrong!")
+        alert("you are wrong!");
         break;
     default:
         // console.log('please try again!');
-        alert("It's a yes or no question, kindly type yes/no or y/n .")
+        alert("It's a yes or no question, kindly type yes/no or y/n .");
 }
 
 
@@ -64,25 +64,25 @@ var question3 = prompt("Do you think I love the color 'pink' ?")
 switch (question3.toLowerCase()) {
     case 'y':
         // console.log('You are wrong!');
-        alert("You are wrong! I actually hate pink ")
+        alert("You are wrong! I actually hate pink ");
         break;
     case 'yes':
         // console.log('You are wrong');
-        alert("You are wrong! I actually hate pink")
+        alert("You are wrong! I actually hate pink");
         break;
     case 'n':
         // console.log('You are right!');
-        alert("you are right!")
+        alert("you are right!");
         counter++;
         break;
     case 'no':
         // console.log('You are right!');
-        alert("you are right!")
+        alert("you are right!");
         counter++;
         break;
     default:
         // console.log('please try again!');
-        alert("It's a yes or no question, kindly type yes/no or y/n .")
+        alert("It's a yes or no question, kindly type yes/no or y/n .");
 }
 
 var question4 = prompt("Do you think I'm a quiet person")
@@ -90,20 +90,20 @@ var question4 = prompt("Do you think I'm a quiet person")
 switch (question4.toLowerCase()) {
     case 'y':
         // console.log('You are wrong');
-        alert("You are wrong")
+        alert("You are wrong");
         break;
     case 'yes':
         // console.log('You are wrong');
-        alert("You are wrong")
+        alert("You are wrong");
         break;
     case 'n':
         // console.log('You are right');
-        alert("you are right! Iam only quiet around people I do not know ")
+        alert("you are right! Iam only quiet around people I do not know ");
         counter++;
         break;
     case 'no':
         // console.log('You are right!');
-        alert("you are right! Iam only quiet around people I do not know")
+        alert("you are right! Iam only quiet around people I do not know");
         counter++;
         break;
     default:
@@ -112,35 +112,22 @@ switch (question4.toLowerCase()) {
 }
 
 
-var question5 = prompt("Was I born in Amman ?")
+var question5 = parseInt( prompt("now that you answered 4 questions about me, can you guess what's my favourite number? 1,4,7,2,9,5 "));
 
-switch (question5.toLowerCase()) {
-    case 'y':
+switch (question5) {
+    case 7:
         // console.log('You are right');
-        alert("You are right")
+        alert("You are right");
         counter++;
-        break;
-    case 'yes':
-        // console.log('You are right');
-        alert("You are right")
-        counter++;
-        break;
-    case 'n':
-        // console.log('You are wrong!');
-        alert("you are wrong!")
-        break;
-    case 'no':
-        // console.log('You are wrong!');
-        alert("you are wrong!")
         break;
     default:
         // console.log('please try again!');
-        alert("It's a yes or no question, kindly type yes/no or y/n .")
+        alert("No you are wrong, it's the odd number 7.");
 }
 
 
 
-alert(' I hope you enjoyed your time ' + username + "your score is "+ counter)
+alert('I hope you enjoyed your time ' + username + "your score is "+ counter);
 
 
 
@@ -149,7 +136,7 @@ var question6 = prompt("How old do you think Iam ?");
 
 for (var i = 0; i < 3; i++) {
     if (question6 == 23) {
-        alert('you are right')
+        alert('you are right');
         counter++
         break;
 
@@ -183,15 +170,15 @@ for (var c = 0; c <= 5; c++) {
     
 
     else if (c == 5) {
-        alert("sorry! You run out of attempts")
+        alert("sorry! You run out of attempts");
     }
     else {
         alert("wrong!");
-        question7 = prompt("What do you think my favourite color is ? green/purple/dark red/daryellow/orange/navy")
+        question7 = prompt("What do you think my favourite color is ? green/purple/dark red/daryellow/orange/navy");
 
     }
 
 }
 
-alert("your score is " + counter)
+alert("your score is " + counter);
 
