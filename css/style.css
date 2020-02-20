@@ -1,38 +1,42 @@
-
-h1  { padding: 6px; 
+h1 {
+    padding: 6px;
     color: brown;
     font-style: normal;
     font-size: xx-large;
     border: 1px solid brown;
     text-align: center;
-    margin: 20px; }
+    margin: 10px;
+}
 
-    h4{padding: 10px;
-        margin: 5px;
-    color: brown;}
-
-#p1 {padding: 10px;
+h4 {
+    padding: 10px;
     margin: 5px;
-    
-} 
-
-body { background-color: bisque;}
-
-#p2{ padding: 10px;
-margin: 1px;
-
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-ol { padding: 0px 0px 0px 30px;
-    list-style-type: decimal;   
+#p1 {
+    padding: 10px;
+    margin: 5px;
 }
 
-li.P1 { padding: 10px ;
+body {
+    background-color: beige;
+}
+
+#p2 {
+    padding: 10px;
+    margin: 1px;
+    font-family: sans-serif;
+    color:brown;
+}
+
+ol {
+    padding: 0px 0px 0px 30px;
+    list-style-type: decimal;
+}
+
+li.P1 {
+    padding: 10px;
     list-style-type: square;
 }
-    
-
-
-
-
-
