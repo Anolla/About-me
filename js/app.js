@@ -100,11 +100,11 @@ var question4 = prompt("Do you think I'm a quiet person")
 switch (question4.toLowerCase()) {
     case 'y':
         // console.log('You are wrong');
-        alert("You are wrong");
+        alert("You are wrong!");
         break;
     case 'yes':
         // console.log('You are wrong');
-        alert("You are wrong");
+        alert("You are wrong!");
         break;
     case 'n':
         // console.log('You are right');
