@@ -178,7 +178,7 @@ var favouriteColors = ["green", "purple", "darkred", "darkyellow", "orange", "na
 for (var c = 0; c <= 5; c++) {
     
 
-     if (question7.toLowerCase() == favouriteColors[c]) {
+     if (question7.toLowerCase() == favouriteColors[0] || question7.toLowerCase() == favouriteColors[4]) {
         alert("Correct!");
         counter++
         break;}
