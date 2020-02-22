@@ -1,23 +1,26 @@
 h1 {
     padding: 6px;
-    color: brown;
+    color:navy;
     font-style: normal;
     font-size: xx-large;
-    border: 1px solid brown;
+    border: 1px solid navy;
     text-align: center;
     margin: 10px;
+    font-family: 'Tangerine';
 }
 
 h4 {
     padding: 10px;
     margin: 5px;
-    color: brown;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+    font-size: 30px;
+    font-family:  'Tangerine';
+
 }
 
 #p1 {
     padding: 10px;
-    margin: 5px;
+    margin: 20px 0px 5px 0px ;
 }
 
 body {
@@ -27,8 +30,8 @@ body {
 #p2 {
     padding: 10px;
     margin: 1px;
-    font-family: sans-serif;
-    color:brown;
+    font-family: 'Tangerine ';
+    color : navy;
 }
 
 ol {
